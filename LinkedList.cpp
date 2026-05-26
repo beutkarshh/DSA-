@@ -17,6 +17,7 @@ int main(){
     vector<int>arr={2,5,8,7};
     Node* y= new Node(arr[0],nullptr);
     cout<<y;
-    cout<<y->data;
+    cout<<y->data;//prints the Address of the data 
+    
     
 }
